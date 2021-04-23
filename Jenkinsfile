@@ -4,8 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building'
-        sh '''bash build.sh
-pwd'''
+        sh 'bash build.sh'
       }
     }
 
