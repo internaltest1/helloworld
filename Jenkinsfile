@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building'
-        sh 'sudo ./build.sh'
+        sh 'whoami'
       }
     }
 
